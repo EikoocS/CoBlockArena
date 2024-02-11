@@ -1,0 +1,33 @@
+{
+  "parent": "pvp:track/class3",
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "title": {
+      "text": "众武之魂 · 宗师"
+    },
+    "description": [
+      {"text": "完成 4 个炉火纯青进度。","color":"white"}
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abcd": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_4":true,"pvp:class/b_4":true,"pvp:class/c_4":true,"pvp:class/d_4":true}}}}},
+    "abce": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_4":true,"pvp:class/b_4":true,"pvp:class/c_4":true,"pvp:class/e_4":true}}}}},
+    "abde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_4":true,"pvp:class/b_4":true,"pvp:class/d_4":true,"pvp:class/e_4":true}}}}},
+    "acde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_4":true,"pvp:class/c_4":true,"pvp:class/d_4":true,"pvp:class/e_4":true}}}}},
+    "bcde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/b_4":true,"pvp:class/c_4":true,"pvp:class/d_4":true,"pvp:class/e_4":true}}}}}
+  },
+  "requirements": [
+    ["abcd","abce","abde","acde","bcde"]
+  ]
+}

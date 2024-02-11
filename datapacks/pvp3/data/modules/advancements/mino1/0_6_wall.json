@@ -1,0 +1,15 @@
+{
+    "criteria": {"any": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+            "damage": {
+                "type": {
+                    "bypasses_armor": true
+                }
+            }
+        }
+    }},
+    "rewards": {
+        "function": "modules:mino1/sub/0_6_wall"
+    }
+}

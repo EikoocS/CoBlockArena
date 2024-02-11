@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:villager",
+        "minecraft:zombie",
+        "minecraft:ravager",
+        "minecraft:guardian",
+        "minecraft:area_effect_cloud",
+        "minecraft:arrow",
+        "minecraft:trident"
+    ]
+}

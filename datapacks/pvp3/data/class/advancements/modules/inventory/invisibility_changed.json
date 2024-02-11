@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "hurt":{
+            "trigger": "effects_changed"
+        }
+    },
+    "rewards": {
+        "function": "class:modules/inventory/invisibility_changed"
+    }
+}

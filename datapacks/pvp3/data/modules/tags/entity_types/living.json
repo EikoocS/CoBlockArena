@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:player",
+        "minecraft:villager",
+        "minecraft:zombie",
+        "minecraft:ravager",
+        "minecraft:vindicator",
+        "minecraft:guardian"
+    ]
+}

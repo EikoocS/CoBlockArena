@@ -1,0 +1,33 @@
+{
+  "parent": "pvp:track/class2",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_glazed_terracotta"
+    },
+    "title": {
+      "text": "众武之魂 · 精熟"
+    },
+    "description": [
+      {"text": "完成 4 个驾轻就熟进度。","color":"white"}
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abcd": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_3":true,"pvp:class/b_3":true,"pvp:class/c_3":true,"pvp:class/d_3":true}}}}},
+    "abce": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_3":true,"pvp:class/b_3":true,"pvp:class/c_3":true,"pvp:class/e_3":true}}}}},
+    "abde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_3":true,"pvp:class/b_3":true,"pvp:class/d_3":true,"pvp:class/e_3":true}}}}},
+    "acde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_3":true,"pvp:class/c_3":true,"pvp:class/d_3":true,"pvp:class/e_3":true}}}}},
+    "bcde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/b_3":true,"pvp:class/c_3":true,"pvp:class/d_3":true,"pvp:class/e_3":true}}}}}
+  },
+  "requirements": [
+    ["abcd","abce","abde","acde","bcde"]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {"any": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+            "damage": {
+                "type": {
+                    "is_magic": true
+                }
+            },
+            "player": {
+                "effects":{
+                    "minecraft:instant_damage": {}
+                }
+            }
+        }
+    }},
+    "rewards": {
+        "function": "modules:mino1/sub/0_5_instant"
+    }
+}

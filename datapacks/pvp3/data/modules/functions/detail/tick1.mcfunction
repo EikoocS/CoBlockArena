@@ -1,0 +1,1 @@
+execute as @a[scores={throw=1..,state=2..}] at @s run function modules:detail/on_throw

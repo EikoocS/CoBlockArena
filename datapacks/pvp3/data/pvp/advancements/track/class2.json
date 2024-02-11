@@ -1,0 +1,43 @@
+{
+  "parent": "pvp:track/class1",
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_glazed_terracotta"
+    },
+    "title": {
+      "text": "众武之魂 · 既成"
+    },
+    "description": [
+      {"text": "完成 3 个日益精进进度。","color":"white"}
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "abc": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_2":true,"pvp:class/b_2":true,"pvp:class/c_2":true}}}}},
+    "abd": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_2":true,"pvp:class/b_2":true,"pvp:class/d_2":true}}}}},
+    "abe": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_2":true,"pvp:class/b_2":true,"pvp:class/e_2":true}}}}},
+    "acd": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_2":true,"pvp:class/c_2":true,"pvp:class/d_2":true}}}}},
+    "ace": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_2":true,"pvp:class/c_2":true,"pvp:class/e_2":true}}}}},
+    "ade": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_2":true,"pvp:class/d_2":true,"pvp:class/e_2":true}}}}},
+    "bcd": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/b_2":true,"pvp:class/c_2":true,"pvp:class/d_2":true}}}}},
+    "bce": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/b_2":true,"pvp:class/c_2":true,"pvp:class/e_2":true}}}}},
+    "bde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/b_2":true,"pvp:class/d_2":true,"pvp:class/e_2":true}}}}},
+    "cde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/c_2":true,"pvp:class/d_2":true,"pvp:class/e_2":true}}}}}
+  },
+  "requirements": [
+    ["abc","abd","abe","acd","ace","ade","bcd","bce","bde","cde"]
+  ]
+}

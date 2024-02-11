@@ -1,0 +1,33 @@
+{
+  "parent": "pvp:track/class4",
+  "display": {
+    "icon": {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    "title": {
+      "text": "众武之魂 · 冠绝"
+    },
+    "description": [
+      {"text": "完成 4 个登峰造极进度。","color":"white"}
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "abcd": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_5":true,"pvp:class/b_5":true,"pvp:class/c_5":true,"pvp:class/d_5":true}}}}},
+    "abce": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_5":true,"pvp:class/b_5":true,"pvp:class/c_5":true,"pvp:class/e_5":true}}}}},
+    "abde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_5":true,"pvp:class/b_5":true,"pvp:class/d_5":true,"pvp:class/e_5":true}}}}},
+    "acde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/a_5":true,"pvp:class/c_5":true,"pvp:class/d_5":true,"pvp:class/e_5":true}}}}},
+    "bcde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+      "pvp:class/b_5":true,"pvp:class/c_5":true,"pvp:class/d_5":true,"pvp:class/e_5":true}}}}}
+  },
+  "requirements": [
+    ["abcd","abce","abde","acde","bcde"]
+  ]
+}

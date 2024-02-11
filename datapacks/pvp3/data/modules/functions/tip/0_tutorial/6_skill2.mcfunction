@@ -1,0 +1,7 @@
+execute if score @s class matches 1 run tellraw @s ["\n\n\n\n",{"text":" ⚜ ","color":"light_purple"},{"text":" 使用技能","color":"light_purple"},"\n     持有折跃箭时，长按 [",{"keybind":"key.use"},"] 拉弓后松开，你会被传送到箭矢的落点。\n     使用这一技能，前往尽头处的传送门吧！\n\n\n"]
+execute if score @s class matches 2 run tellraw @s ["\n\n\n\n",{"text":" ⚜ ","color":"light_purple"},{"text":" 使用技能","color":"light_purple"},"\n     持有暗影精髓时，按 [",{"keybind":"key.use"},"] 会将你传送到准心所指的位置。\n     使用这一技能，前往尽头处的传送门吧！\n\n\n"]
+execute if score @s class matches 3 run tellraw @s ["\n\n\n\n",{"text":" ⚜ ","color":"light_purple"},{"text":" 使用技能","color":"light_purple"},"\n     短按 [",{"keybind":"key.sneak"},"] 激活掠夺者飞弹，会使你高高跳起。\n    使用这一技能，前往尽头处的传送门吧！\n\n\n"]
+execute if score @s class matches 4 run tellraw @s ["\n\n\n\n",{"text":" ⚜ ","color":"light_purple"},{"text":" 使用技能","color":"light_purple"},"\n     持海神戟站在水中，长按 [",{"keybind":"key.use"},"] 蓄力后松开，你会跟随它一并飞出。\n     使用这一技能，前往尽头处的传送门吧！\n\n\n"]
+execute if score @s class matches 5 run tellraw @s ["\n\n\n\n",{"text":" ⚜ ","color":"light_purple"},{"text":" 使用技能","color":"light_purple"},"\n     持有烁光新星按 [",{"keybind":"key.swapOffhand"},"] 会向准心方向激发一团星光，\n     在它消失前再次按 [",{"keybind":"key.swapOffhand"},"] 会将你传送到星光所在的位置。\n     使用这一技能，前往尽头处的传送门吧！\n\n\n"]
+scoreboard players set @s tip_cd 0
+scoreboard players set @s tip_0_tutorial 6

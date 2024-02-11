@@ -1,0 +1,2 @@
+execute if entity @s[scores={state=..2,tip_0_tutorial=7..}] run function pvp:state/respawn/enter
+execute unless entity @s[scores={state=..2,tip_0_tutorial=7..}] run function pvp:state/train/player_death
