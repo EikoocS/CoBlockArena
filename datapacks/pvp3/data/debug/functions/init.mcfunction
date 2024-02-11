@@ -1,6 +1,7 @@
 # 全局初始化
 
-datapack disable "vanilla"
+# datapack disable "vanilla" 
+# in 1.20+ , you can't disable the vanilla datapack,because it's required for the overworld setting to work properly
 tellraw @a[tag=pass] [{"text":" ❇ ","color":"aqua"}," 管理员已手动重置游戏！"]
 
 # ---------------------------------------------
