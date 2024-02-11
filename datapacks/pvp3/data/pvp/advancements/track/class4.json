@@ -16,15 +16,15 @@
     "hidden": false
   },
   "criteria": {
-    "abcd": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+    "abcd": {"trigger":"minecraft:location","conditions":{"player":{"type": "minecraft:player","type_specific": {"type": "player","advancements":{
       "pvp:class/a_4":true,"pvp:class/b_4":true,"pvp:class/c_4":true,"pvp:class/d_4":true}}}}},
-    "abce": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+    "abce": {"trigger":"minecraft:location","conditions":{"player":{"type": "minecraft:player","type_specific": {"type": "player","advancements":{
       "pvp:class/a_4":true,"pvp:class/b_4":true,"pvp:class/c_4":true,"pvp:class/e_4":true}}}}},
-    "abde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+    "abde": {"trigger":"minecraft:location","conditions":{"player":{"type": "minecraft:player","type_specific": {"type": "player","advancements":{
       "pvp:class/a_4":true,"pvp:class/b_4":true,"pvp:class/d_4":true,"pvp:class/e_4":true}}}}},
-    "acde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+    "acde": {"trigger":"minecraft:location","conditions":{"player":{"type": "minecraft:player","type_specific": {"type": "player","advancements":{
       "pvp:class/a_4":true,"pvp:class/c_4":true,"pvp:class/d_4":true,"pvp:class/e_4":true}}}}},
-    "bcde": {"trigger":"minecraft:location","conditions":{"player":{"player":{"advancements":{
+    "bcde": {"trigger":"minecraft:location","conditions":{"player":{"type": "minecraft:player","type_specific": {"type": "player","advancements":{
       "pvp:class/b_4":true,"pvp:class/c_4":true,"pvp:class/d_4":true,"pvp:class/e_4":true}}}}}
   },
   "requirements": [
