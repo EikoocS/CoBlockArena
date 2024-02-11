@@ -4,7 +4,12 @@
         "conditions": {
             "damage": {
                 "type": {
-                    "bypasses_armor": true
+                    "tags": [
+                        {
+                            "id": "bypasses_armor",
+                            "expected": true
+                        }
+                    ]
                 }
             },
             "player": {

@@ -3,7 +3,12 @@
         "trigger": "minecraft:entity_hurt_player",
         "conditions": {
             "type": {
-                "bypasses_invulnerability": false
+                "tags": [
+                    {
+                        "id": "bypasses_invulnerability",
+                        "expected": false
+                    }
+                ]
             },
             "player": {"effects":{"resistance":{"amplifier":{"min":4}}}}
         }
