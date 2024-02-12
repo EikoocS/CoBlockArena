@@ -1,7 +1,9 @@
 {
     "pack": {
         "pack_format": 26,
-        "description": "pvp3"
+        "description": {
+            "text": "pvp3"
+        }
     },
     "filter": {
         "block": [

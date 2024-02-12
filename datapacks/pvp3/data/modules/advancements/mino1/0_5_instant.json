@@ -6,7 +6,7 @@
                 "type": {
                     "tags": [
                         {
-                            "id": "is_magic",
+                            "id": "minecraft:bypasses_armor",
                             "expected": true
                         }
                     ]

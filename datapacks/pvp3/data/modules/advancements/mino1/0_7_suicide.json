@@ -6,7 +6,7 @@
                 "type": {
                     "tags": [
                         {
-                            "id": "bypasses_invulnerability",
+                            "id": "minecraft:ypasses_invulnerability",
                             "expected": true
                         }
                     ]

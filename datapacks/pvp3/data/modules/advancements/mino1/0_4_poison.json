@@ -6,7 +6,7 @@
                 "type": {
                     "tags": [
                         {
-                            "id": "is_magic",
+                            "id": "minecraft:is_magic",
                             "expected": true
                         }
                     ]
